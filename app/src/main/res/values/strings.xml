@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Phone Book App</string>
+
+    <string name="name">Name:</string>
+    <string name="street_address">Street Address:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="zip_code">Zip Code:</string>
+    <string name="email">Email Address:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="contact_type">Type of Contact:</string>
+
+    <string name="enter_name">Enter name</string>
+    <string name="enter_street_address">Enter street address</string>
+    <string name="enter_city">Enter city</string>
+    <string name="enter_state">Enter state</string>
+    <string name="enter_zip_code">Enter zip code</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_phone_number">Enter phone number</string>
+
+    <!-- Contact types -->
+    <string-array name="contact_types">
+        <item>Family</item>
+        <item>Friend</item>
+        <item>Business Contact</item>
+    </string-array>
+
+</resources>

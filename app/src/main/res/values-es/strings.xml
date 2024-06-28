@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Phone Book App</string>
+    <!-- Spanish -->
+    <string name="name">Nombre:</string>
+    <string name="street_address">Dirección:</string>
+    <string name="city">Ciudad:</string>
+    <string name="state">Estado:</string>
+    <string name="zip_code">Código Postal:</string>
+    <string name="email">Correo Electrónico:</string>
+    <string name="phone_number">Número de Teléfono:</string>
+    <string name="contact_type">Tipo de Contacto:</string>
+
+    <string name="enter_name">Introducir nombre</string>
+    <string name="enter_street_address">Introducir dirección</string>
+    <string name="enter_city">Introducir ciudad</string>
+    <string name="enter_state">Introducir estado</string>
+    <string name="enter_zip_code">Introducir código postal</string>
+    <string name="enter_email">Introducir correo electrónico</string>
+    <string name="enter_phone_number">Introducir número de teléfono</string>
+
+    <!-- Contact types (Spanish) -->
+    <string-array name="contact_types">
+        <item>Familia</item>
+        <item>Amigo</item>
+        <item>Contacto Comercial</item>
+    </string-array>
+</resources>

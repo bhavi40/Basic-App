@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:layout_below="@id/textViewName"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- Street Address -->
+    <TextView
+        android:id="@+id/textViewStreetAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/street_address"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextStreetAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_street_address"
+        android:layout_below="@id/textViewStreetAddress"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- City -->
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:layout_below="@id/editTextStreetAddress"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_city"
+        android:layout_below="@id/textViewCity"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- State -->
+    <TextView
+        android:id="@+id/textViewState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/state"
+        android:layout_below="@id/editTextCity"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_state"
+        android:layout_below="@id/textViewState"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- Zip Code -->
+    <TextView
+        android:id="@+id/textViewZipCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zip_code"
+        android:layout_below="@id/editTextState"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextZipCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_zip_code"
+        android:layout_below="@id/textViewZipCode"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- Email Address -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@id/editTextZipCode"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_phone_number"
+        android:layout_below="@id/textViewPhoneNumber"
+        android:layout_marginHorizontal="16dp"/>
+
+    <!-- Type of Contact -->
+    <TextView
+        android:id="@+id/textViewContactType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_type"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerContactType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewContactType"
+        android:layout_marginHorizontal="16dp"
+        android:entries="@array/contact_types" />
+
+
+</RelativeLayout>
